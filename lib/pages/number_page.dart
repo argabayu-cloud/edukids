@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import '../services/firebase_service.dart';
 import '../models/number_item.dart';
-import '../widgets/card_tile.dart';
 
 
 class NumbersPage extends StatelessWidget {

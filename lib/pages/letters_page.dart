@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import '../services/firebase_service.dart';
 import '../models/letter.dart';
-import '../widgets/card_tile.dart';
 
 class LettersPage extends StatelessWidget {
   const LettersPage({super.key});
@@ -14,8 +13,9 @@ class LettersPage extends StatelessWidget {
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseService.streamLetters(),
         builder: (context, snapshot) {
-          if (snapshot.hasError)
+          if (snapshot.hasError) {
             return const Center(child: Text('Terjadi kesalahan'));
+          }
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
           }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483952641868",
+    "project_id": "project-pm2-7224d",
+    "storage_bucket": "project-pm2-7224d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483952641868:android:c49877465ae289733e71e9",
+        "android_client_info": {
+          "package_name": "com.example.edukids"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZgKGt_462uV-iDO7VvVZWsmNIn6tzieQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
